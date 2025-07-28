@@ -42,7 +42,7 @@ def send_requests(target_ip, target_port, duration):
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             sock.connect((target_ip, target_port))
             sock.sendto(b"GET / HTTP/1.1\r\n", (target_ip, target_port))
-            print("\033[1;35m" + f"-GET Request sent to:{target_ip}:{target_port} From {bot_ip} " + "\033[0m")
+            print("\033[1;35m" + f"-GET Request sent to:{target_ip}:{target_port} From: {bot_ip} : 22 " + "\033[0m")
             sock.close()
         except Exception as e:
             print("\033[1;31m" + f"Error: {e}" + "\033[0m")
