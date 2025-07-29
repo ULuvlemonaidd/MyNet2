@@ -32,6 +32,7 @@ def print_menu():
             ░ ░                                  
     """ + "\033[0m")
     print("\033[1;36m" + "MyNet Layer4" + "\033[0m")
+    print("\033[1;36m" + "Bots Online:███" + "\033[0m")
     print("\033[1;32m" + "1. Attack IP" + "\033[0m")
     print("\033[1;32m" + "2. Exit" + "\033[0m")
 
