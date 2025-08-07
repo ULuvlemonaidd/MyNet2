@@ -1,14 +1,45 @@
 # MyNet2
-mynet - Simple Layer 4 DoS Tool
-mynet is a basic demonstration tool designed to send multiple HTTP GET requests to a target server over TCP (Layer 4). It can be used for educational and research purposes to understand how denial-of-service (DoS) techniques work at the transport layer.
+mynet - Simple Layer 4 DDoS Simulation Tool
+mynet is a lightweight, command-line demonstration tool designed to simulate Distributed Denial-of-Service (DDoS) attacks at the Transport Layer (Layer 4) using TCP, UDP, and SYN flood techniques. It also features an effective IP stressing and load-balancing network simulator, ideal for testing server resilience in a controlled environment.
 
-⚠️ Disclaimer: This tool is intended strictly for educational and authorized testing purposes. Do not use this tool on networks, systems, or infrastructure you do not own or have explicit permission to test. Unauthorized usage may violate laws and result in legal consequences.
+⚠️ Disclaimer
+This tool is intended strictly for educational purposes and authorized testing only. Do not use mynet on any network, server, or system that you do not own or have explicit written permission to test. Misuse can result in legal action and consequences. Always comply with all applicable laws and terms of service.
 
 🔧 Features
-Sends raw TCP connections with HTTP GET requests
-Minimal dependencies
-Customizable target IP, port, request count, and attack duration
-minimum attack time (10sec) Maximum attack time (9500sec)
+✅ Supports multiple Layer 4 attack methods:
+
+TCP flood
+
+UDP flood
+
+SYN flood
+
+✅ Effective IP stress test 
+
+✅ Load balancing simulation using randomized bot IPs
+
+✅ Customizable attack settings:
+
+Target IP and Port
+
+Attack Method
+
+Duration (10 to 9500 seconds)
+
+Number of threads 
+
+✅ Minimal dependencies, easy to run on Python3-based environments (Linux, Termux, etc.)
+
+✅ Simulated bots online count and dynamic proxy list support
+
+📦 Requirements
+Python 3.x
+
+Modules: socket, threading, random, time, sys, etc. (included in standard library)
+
+Termux or ISH shell for deployment
+
+
 
 ---
 
