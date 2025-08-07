@@ -56,7 +56,7 @@ proxy_list = [
 ]
 
 MAX_THREADS = 299
-MAX_DURATION = 300
+MAX_DURATION = 9500
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
