@@ -16,7 +16,7 @@ SYN flood
 
 ✅ Effective IP stress test 
 
-✅ Load balancing simulation using randomized bot IPs
+✅ Load balancing simulation using  bot IPs
 
 ✅ Customizable attack settings:
 
@@ -28,9 +28,6 @@ Duration (10 to 9500 seconds)
 
 Number of threads 
 
-✅ Minimal dependencies, easy to run on Python3-based environments (Linux, Termux, etc.)
-
-✅ Simulated bots online count and dynamic proxy list support
 
 📦 Requirements
 Python 3.x
