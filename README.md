@@ -1,24 +1,45 @@
 # MyNet2
-mynet - Simple Layer 4 DDoS Simulation Tool
-mynet is a lightweight, command-line demonstration tool designed to simulate Distributed Denial-of-Service (DDoS) attacks at the Transport Layer (Layer 4) using TCP, UDP, and SYN flood techniques. It also features an effective IP stressing and load-balancing network simulator, ideal for testing server resilience in a controlled environment.
+mynet - Advanced Layer 4 & Layer 7 DDoS Simulation Tool
+
+mynet is a command-line demonstration tool designed to simulate Distributed Denial-of-Service (DDoS) attacks at both the Transport Layer (Layer 4) and the Application Layer (Layer 7).
+
+Originally created as a lightweight Layer 4 stress-testing utility, mynet has now expanded with a brand new, more powerful Layer 7 attack menu and upgraded Layer 4 methods (including cURL support). These additions make it a versatile tool for testing server resilience in a controlled, educational environment.
 
 ⚠️ Disclaimer
-This tool is intended strictly for educational purposes and authorized testing only. Do not use mynet on any network, server, or system that you do not own or have explicit written permission to test. Misuse can result in legal action and consequences. Always comply with all applicable laws and terms of service.
+This tool is intended strictly for educational purposes and authorized testing only.
+Do not use mynet on any network, server, or system you do not own or have explicit written permission to test.
+Misuse can result in legal consequences. Always comply with applicable laws and terms of service.
 
 🔧 Features
-✅ Supports multiple Layer 4 attack methods:
+✅ New & More Powerful Layer 7 (Application Layer) Simulation
 
-TCP flood
+NEW HTTP Floods – simulate web-layer overloads
 
-UDP flood
+NEW cURL-based Floods – emulate realistic request-style traffic
 
-SYN flood
+NEW Hard Mode Attacks – optimized for maximum Layer 7 load testing
 
-✅ Effective IP stress test 
+✅ Upgraded Layer 4 (Transport Layer) Simulation
 
-✅ Load balancing simulation using  bot IPs
+TCP Flood – overwhelms target with TCP packets
 
-✅ Customizable attack settings:
+UDP Flood – stronger, high-volume UDP traffic generation
+
+SYN Flood – advanced half-open connection stressor
+
+Heavy SYN / Hard UDP – upgraded high-load stressors
+
+NEW cURL Floods at Layer 4 – hybrid simulation of connection + payload stress
+
+✅ Multi-Bot Power
+
+Increased bot capacity for distributed testing
+
+Simulates coordinated attack power from multiple nodes
+
+More realistic load-balancing & stress scenarios
+
+
 
 Target IP and Port
 
